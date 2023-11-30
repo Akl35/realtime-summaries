@@ -31,7 +31,7 @@ To install WebcamGPT-Vision, follow these steps for the correct version (all are
 3. Run `pip install -r requirements.txt` to install the dependencies.
 4. Set your OpenAI API key as an environment variable:
    ```sh
-   export YOUR_DEFAULT_API_KEY='your_actual_api_key_here'
+   export OPENAI_API_KEY='your_actual_api_key_here'
    ```
 5. Start the Flask server with `python process_image.py`.
 6. Access the application through your web browser at `http://localhost:5000`.
