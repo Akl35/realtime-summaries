@@ -21,7 +21,7 @@ async function processImage(base64Image) {
     imageInProcess = true;
 
     // CHANGE THIS LINK! IF USING BLIP-2
-    await fetch('https://f5f6-35-243-231-234.ngrok-free.app/summarize', {
+    await fetch('https://834c-35-229-183-111.ngrok.io/summarize', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
